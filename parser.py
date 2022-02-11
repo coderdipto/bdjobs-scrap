@@ -69,7 +69,7 @@ education_create_button = driver.find_element(
     '//button[@id="btnAdd_aca"]'
 )
 education_create_button.click()
-time.sleep(10)
+time.sleep(5)
 
 level_of_education_select = Select(driver.find_element(By.ID, 'cboEduLevel'))
 
